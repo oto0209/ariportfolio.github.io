@@ -1,0 +1,397 @@
+#2E4756
+/*青*/
+#C95D63
+/*ピンク*/
+#272A33
+/*文字色*/
+#D9C5B2
+/*ベージュ*/
+
+
+
+a {
+    font-family: "M PLUS Rounded 1c";
+    text-decoration: none;
+}
+
+#back {
+
+    margin-top: 40px;
+    margin-left: -8px;
+}
+
+#header_top img{
+ width: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+#header_top {
+    color: #fff;
+    margin-top: 30px;
+    
+}
+
+#nav {
+    list-style: none;
+    overflow: hidden;
+    padding: 0 0 0 500px;
+    margin-top: -20px;
+
+
+}
+
+#nav li {
+    width: 150px;
+    min-width: 100px;
+    text-align: center;
+    float: left;
+    line-height: 40px;
+    margin-right: 5px;
+
+
+}
+
+
+#nav li a {
+    font-family: "M PLUS Rounded 1c";
+    text-decoration: none;
+    color: #272A33;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+/*上メニューホバー変化*/
+#nav li a:hover {
+    color: #D9C5B2;
+}
+
+#mozi_topic {
+    font-family: "M PLUS Rounded 1c";
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40px;
+    color: #272A33;
+}
+
+#mozi_same {
+    font-family: "M PLUS Rounded 1c";
+    font-size: 1.5em;
+    margin-left: 550px;
+    margin-top: -160px;
+    color: #fff;
+    letter-spacing: 0.2em
+}
+
+
+#same {
+    margin-left: 440px;
+    width: 500px;
+}
+
+#index_btn {
+    margin-top: 250px;
+    margin-left: 300px;
+}
+
+#hosi {
+    width: 250px;
+}
+
+#hosi:hover {
+    animation: hurueru .1s infinite;
+}
+
+
+
+#roketo {
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+}
+
+#roketo:hover {
+    animation: hurueru .1s infinite;
+}
+
+#ufo {
+    margin-left: 70px;
+    width: 250px;
+}
+
+#ufo:hover {
+    animation: hurueru .1s infinite;
+}
+
+#index_link {
+
+    margin-top: -20px;
+    margin-left: 350px;
+}
+
+#index_link a {
+    font-family: "M PLUS Rounded 1c";
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #272A33;
+    transition: 0.3s;
+    letter-spacing: 0.4em
+}
+
+#index_link a:hover {
+    color: #D9C5B2;
+}
+
+@keyframes hurueru {
+    0% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+    }
+
+    25% {
+        transform: translate(2px, 2px) rotateZ(0deg)
+    }
+
+    50% {
+        transform: translate(0px, 2px) rotateZ(0deg)
+    }
+
+    75% {
+        transform: translate(2px, 0px) rotateZ(0deg)
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+    }
+}
+
+#index_link #index_link1 {
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+#index_link #index_link2 {
+    margin-left: 330px;
+    margin-top: -30px;
+}
+
+#index_link #index_link3 {
+    margin-left: 630px;
+    margin-top: -35px;
+}
+
+footer {
+    font-family: "M PLUS Rounded 1c";
+    text-align: center;
+    color: #a9a9a9;
+
+}
+
+#shadow {
+    text-shadow: 2px 2px 0 #C95D63;
+}
+
+
+/*----------profile---------*/
+
+#profileimg img {
+    width: 250px;
+    filter: drop-shadow(10px 10px 0 #C95D63);
+
+}
+
+#profilebody {
+    background-color: #2E4756;
+    margin-top: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+}
+
+#profilemozi {
+    color: #fff;
+    font-family: "M PLUS Rounded 1c";
+    font-size: 18px;
+
+}
+
+/*----------production---------*/
+
+#productionbody {
+    background-color: #2E4756;
+    margin-top: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+
+/*制作作品　タイトル*/
+
+#produtonbodymozi {
+    font-family: "M PLUS Rounded 1c";
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*制作　まとまり*/
+#productionbodymozi2 {
+    font-family: "M PLUS Rounded 1c";
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/*制作index　画像位置*/
+
+#production {
+    margin-top: 30px;
+    margin-left: 120px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/*制作index　画像フワフワ*/
+#production img {
+    margin-top: -10 width: 300px;
+    margin-left: 100px;
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: blur(1.5px);
+    transition-duration: 0.3s;
+}
+
+/*制作index　画像アニメーション*/
+#production :hover img {
+    filter: blur(0);
+    transition-duration: 0.3s;
+    ;
+}
+
+/*制作index　文字左*/
+#production1 {
+    margin-top: 5px;
+    font-family: "M PLUS Rounded 1c";
+    font-size: 1.2em;
+    color: #fff;
+    margin-left: 170px;
+    transition: 0.3s;
+    list-style: none;
+}
+
+/*制作index　文字真ん中*/
+#production2 {
+    margin-top: -50px;
+    font-family: "M PLUS Rounded 1c";
+    font-size: 1.2em;
+    color: #fff;
+    margin-left: 580px;
+    transition: 0.3s;
+    list-style: none;
+}
+
+/*制作index　文字右*/
+#production3 {
+    margin-top: -50px;
+    font-family: "M PLUS Rounded 1c";
+    font-size: 1.2em;
+    color: #fff;
+    margin-left: 1000px;
+    transition: 0.3s;
+    list-style: none;
+}
+
+/*制作　もっぴぃ画像*/
+#productionbodytop img {
+    width: 1000px;
+    margin-left: 300px;
+}
+
+#productionbodyraizyou img{
+width: 400px;
+    height: 280px;
+    margin-left: 20px;
+}
+
+
+#productionbody_mozi_naiyou {
+    font-family: "M PLUS Rounded 1c";
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#c-1 {
+    color: #C95D63;
+}
+
+#productionbody_s_1saito {
+    font-family: "M PLUS Rounded 1c";
+    text-align: center;
+    font-size: 1.2em;
+    transition: 0.3s;
+    letter-spacing: 0.2em
+}
+
+#productionbodysaito a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+#productionbodysaito :hover {
+    color: #D9C5B2;
+}
+
+#gaiyoubox{
+   padding: 0.8em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 10px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    margin-left: 500px;
+    width: 500px;
+}
+
+
+#cgimg img{
+    margin-left: -150px;
+    width: 400px;
+}
+
+#cgimg p{
+    margin-left: 500px;
+    margin-top: -30px;
+}
+
+#gaiyoubox p{
+margin: 0; 
+    padding: 0;
+}
+
+#back{
+text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+#back:hover {
+    color: #D9C5B2;
+}
+
+#s-5img img{
+width: 500px;
+    margin-left: 550px;
+}
+
+#productionbodys-5 img{
+width: 400px;
+    vertical-align: top;
+    margin-left: 10px;
+}
